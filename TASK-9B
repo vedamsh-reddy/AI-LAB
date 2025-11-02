@@ -1,0 +1,8 @@
+# This is a sample chatbot demo (simplified for W3Schools)
+print("Welcome to the chatbot!")
+while True:
+    message = input("Type your message (or 'quit' to exit): ")
+    if message.lower() == "quit":
+        print("Goodbye!")
+        break
+    print(f"You said: {message}")
